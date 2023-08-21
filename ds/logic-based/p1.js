@@ -1,24 +1,21 @@
-<<<<<<< HEAD
-=======
-// Note : - This question is asked in Browser stack Interview Round 
->>>>>>> origin/main
+// Note : - This question is asked in Browser stack Interview Round
 // implement this ----> cal.add(4).multiply(10).sub(12).add(20);
 
 const cal = {
-    total : 0 ,
-    add : function (a){
-        this.total += a ;
-        return this
-    },
-     sub : function (a){
-        this.total -= a ;
-        return this
-    },
-     multiply : function (a){
-        this.total *= a ;
-        return this
-    }
-}
+  total: 0,
+  add: function (a) {
+    this.total += a;
+    return this;
+  },
+  sub: function (a) {
+    this.total -= a;
+    return this;
+  },
+  multiply: function (a) {
+    this.total *= a;
+    return this;
+  },
+};
 
 const result = cal.add(4).multiply(10).sub(12).add(20);
-console.log(result.total)
+console.log(result.total);
