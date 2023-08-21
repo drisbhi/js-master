@@ -1,0 +1,9 @@
+what is array ? 
+-> Array can be described as a data structure that can be store collection of data , in a linear contiguous 
+orientation in the memory.
+
+Array actually store data in linear contiguous orientation in the memory. 
+
+what is data structure ? 
+-> These are diffrent structures or mindmap that we can prepare to store data in diffrent ways depending 
+on our use case. 

@@ -1,0 +1,38 @@
+ 1. What is hot and live reloading in react native ? 
+ Ans : 
+ Live Reloading and Hot Reloading are two different mechanisms in React Native that help developers during 
+ the development process by updating the app's code without requiring a full restart. While they serve a
+ similar purpose, there are key differences between the two:
+
+1. **Live Reloading:**
+   - Live Reloading reloads the entire app whenever you save changes to your code, including both 
+     JavaScript and native code changes.
+   - When you make code changes and save them, the app's state is reset, and the app restarts from the
+     initial screen. Any unsaved data or user interactions are lost during the reload.
+   - Live Reloading is useful for quickly seeing the changes you made to the app without manually 
+     stopping and re-running the development server.
+
+2. **Hot Reloading:**
+   - Hot Reloading allows you to update the JavaScript code of your app on the fly, without losing the
+     current app state.
+   - When you make code changes and save them, the modified JavaScript code is injected into the
+     running app, and the app's state is preserved. This means that you can see the changes in the UI
+     without losing the current screen or losing data entered by the user.
+   - Hot Reloading is more efficient and faster than Live Reloading, as it only updates the modified 
+     JavaScript code, not the entire app.
+
+In summary, Live Reloading restarts the app from scratch and resets the state, while Hot Reloading
+   injects the updated JavaScript code into the running app without losing the state. Hot Reloading 
+   is generally the preferred choice for React Native development, as it allows for a faster development
+   workflow and a more seamless user experience during development. However, there may be situations where
+   Live Reloading is necessary, especially when making changes to native code, as Hot Reloading
+   only works for JavaScript code changes.
+
+2. How many threads run in React Native?
+   There are two threads run in React Native:
+    -JavaScript thread
+    -Main UI thread
+
+3. Differentiate between the React component and the React element.
+   React component is a class or function that accepts input and returns a React element while React 
+   element displays the look of React Component Instance to be created.
