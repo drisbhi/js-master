@@ -1,0 +1,3 @@
+https://medium.com/@emma-delaney/top-10-tricky-javascript-questions-that-i-used-to-ask-in-interviews-2cb3912271a9
+https://javascript.plainenglish.io/17-pro-javascript-tricks-you-didnt-know-b419c018dd19
+https://medium.com/@flavtech/stop-passing-props-between-react-components-apply-composition-pattern-15b132bf0686

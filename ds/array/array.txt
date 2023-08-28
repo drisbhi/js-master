@@ -3,6 +3,11 @@ what is array ?
 orientation in the memory.
 
 Array actually store data in linear contiguous orientation in the memory. 
+Note :- JS array support heterogenous value.
+
+** Array are Mutable , hence they get updated but , 
+   string in js are immutable hence dont update.
+
 
 what is data structure ? 
 -> These are diffrent structures or mindmap that we can prepare to store data in diffrent ways depending 
