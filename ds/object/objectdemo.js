@@ -15,7 +15,7 @@ y.name = "Chirag"; // update the object
 console.log(y);
 
 // why we cannot acess the value from a key ?
-// In an object key are uniques but multiples diffrent keys have same values example :-
+// In an object key are uniques but multiples different keys have same values example :-
 let y = {
   name: "Deepanshu",
   age: 27,
