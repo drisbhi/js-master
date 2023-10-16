@@ -66,3 +66,27 @@ console.log([] == ![]);
 // 0== 0 true
 
 // note :-   https://levelup.gitconnected.com/8-advanced-javascript-interview-questions-for-senior-roles-c59e1b0f83e1
+
+// 5 what is the output of this ?
+function lang(name) {
+  name.lan = "hindi";
+}
+var myLang = { langname: "English" };
+var x;
+lang(myLang);
+x = myLang.langname;
+console.log(x);
+
+//6 what is the output of this
+
+if (true || true) {
+  if ((false && true) || false) {
+    console.log("A");
+  } else if ((false && false) || (true && true)) {
+    console.log("B");
+  } else {
+    console.log("C");
+  }
+} else {
+  console.log("D");
+}
