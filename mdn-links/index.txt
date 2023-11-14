@@ -3,4 +3,6 @@ https://javascript.plainenglish.io/17-pro-javascript-tricks-you-didnt-know-b419c
 https://medium.com/@flavtech/stop-passing-props-between-react-components-apply-composition-pattern-15b132bf0686
 https://levelup.gitconnected.com/common-javascript-interview-questions-that-stump-job-candidates-f6d50f9dd31c
 https://medium.com/@josephat94/building-a-simple-react-hook-to-detect-screen-size-404a867fa2d2
+https://mevasanth.medium.com/event-bubbling-and-trickling-capturing-in-javascript-common-interview-question-8817238df70a
+
 
