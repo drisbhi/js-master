@@ -76,7 +76,7 @@
 
    merge conflits can occur if multiple people try to make changes to the same file , and then collaborate.
    
-
+  24. Head -> It tells you that what branch you are working on and what's a current commit.
 
 
 

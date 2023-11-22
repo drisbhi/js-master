@@ -4,5 +4,9 @@ https://medium.com/@flavtech/stop-passing-props-between-react-components-apply-c
 https://levelup.gitconnected.com/common-javascript-interview-questions-that-stump-job-candidates-f6d50f9dd31c
 https://medium.com/@josephat94/building-a-simple-react-hook-to-detect-screen-size-404a867fa2d2
 https://mevasanth.medium.com/event-bubbling-and-trickling-capturing-in-javascript-common-interview-question-8817238df70a
+https://umarfarooquekhan.medium.com/20-javascript-tricky-program-output-questions-and-answers-fc20a5c39eeb
+https://javascript.plainenglish.io/how-to-become-frontend-dev-in-4-months-ec3f61576251
+https://rahuulmiishra.medium.com/javascript-interview-question-write-a-function-that-deep-compares-two-objects-b62edfca9deb
+https://medium.com/@yuribett/javascript-promises-a-must-know-for-front-end-job-interviews-32afed53f307
 
 
