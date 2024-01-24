@@ -1,3 +1,8 @@
+/*
+Subsequence - It is a contigeous/non-contigeous sequence which follows the order.
+*/
+
+
 function printSubString(inp, out) {
   if (inp.length === 0) {
     return [out];

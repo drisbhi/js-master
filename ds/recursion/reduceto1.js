@@ -1,8 +1,7 @@
 /*
 implement a recursive function to reduce a number to 1 with the fewest steps,
  using three possible operations: subtracting 1, dividing by 3 (if divisible),
- and dividing by 2 (if divisible). However, there are some issues in your code.
-Here's the code:
+ and dividing by 2 (if divisible). 
 */
 
 function reduceto1(n) {

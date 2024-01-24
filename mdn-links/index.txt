@@ -8,5 +8,13 @@ https://umarfarooquekhan.medium.com/20-javascript-tricky-program-output-question
 https://javascript.plainenglish.io/how-to-become-frontend-dev-in-4-months-ec3f61576251
 https://rahuulmiishra.medium.com/javascript-interview-question-write-a-function-that-deep-compares-two-objects-b62edfca9deb
 https://medium.com/@yuribett/javascript-promises-a-must-know-for-front-end-job-interviews-32afed53f307
+https://mevasanth.medium.com/how-everything-is-object-in-javascript-a4164d7e6a2d
+https://medium.com/@adarshrai3011/javascript-secrets-revealed-21-tricks-every-coder-should-master-271fe80f8885
 
 
+
+
+
+Microsoft Interview experience :- 
+https://dev.to/dhilipkmr/software-engineer-2-ui-interview-at-microsoft-1i0b
+https://medium.com/geekculture/microsoft-software-engineer-interview-handbook-2023-80df999d286f

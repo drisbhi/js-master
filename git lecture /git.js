@@ -78,7 +78,13 @@
    
   24. Head -> It tells you that what branch you are working on and what's a current commit.
 
+  25. git checkout :- it is used to grt back old code back like 
+        git checkout --<commit id>   what ever the commit id it will redirect to that commit data in branch.
 
-
-
+  26. git clean -> It is used to clean the untracked files / or files in working area. 
+       - git clean -d -dry-run -->   this command tell us all the directory and file deleted in working area
+       - git clean -dry-run --> this command tell all the files deleted in working area
+       - git clean -d -f --> remove all files and directory in working area 
+       - git clean -f  -> remove all the files in working area 
+       - git clean -f -d ->  remove all directory in working area      
  */
