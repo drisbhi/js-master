@@ -1,3 +1,21 @@
+let arrr = [ 3,4,5,6,9]; 
+let res = arrr.reduce( (prev , curr )=> prev + curr);
+console.log(res);
+Array.prototype.myReduce = function(callback , currValue){
+    let accumulator = currValue !== undefined ? currValue : this[0];
+    if(accumulator){
+      for(let i = currValue !== undefined ?  0 : 1 ; i< this.length ; i++){
+          accumulator = callback(accumulator , this[i])
+      }
+    }
+   return accumulator ; 
+}
+let a = [5,3,6,8,9,0];
+let myRes = a.myReduce( (prev , curr) => curr + prev);
+console.log(myRes); 
+  
+// Alternative 
+
 Array.prototype.myReduce = function (callback , initialValue){
     let accumulator = initialValue;
     for(let i=0 ; i < this.length ; i++){

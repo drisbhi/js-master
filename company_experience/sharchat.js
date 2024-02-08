@@ -30,8 +30,10 @@ const obj = {
      console.log(this.name);
     }
    }
-   obj.fun1();  // undefined
-   obj.fun2(); // Sahib Bajaj
+   obj.fun1();  
+   obj.fun2(); 
+   // undefined
+   // Sahib Bajaj
 
 
 // 5. use of useCallback vs useMemo hook and CodePush in RN

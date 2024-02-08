@@ -7,5 +7,23 @@ https://medium.com/javascript-in-plain-english/from-good-to-great-why-true-engin
 https://medium.com/gitconnected/vimp-javascript-promise-implementation-challenges-5a4f120d8606
 
 
+
+https://leetcode.com/discuss/interview-experience/4165763/Cars24-or-SDE1-React-Native-or-Bengaluru-Rejected-in-Round-3/
+https://leetcode.com/discuss/interview-experience/2072679/livspace-interview-questions-front-end-sde-1-my-journery-from-76lpa-to-27-lpa
+
+
+
+
+https://medium.com/@saasak/interview-senior-frontend-developper-f1b421fe40ce
+Interview Prepration Handbook
+https://www.techinterviewhandbook.org/coding-interview-study-plan/
+
+
+https://github.com/samsoul16/react-native-interview-questions
+
+
+
+
+
 */
 

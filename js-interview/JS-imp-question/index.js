@@ -5,7 +5,7 @@
 // The prototype property is an attribute associated with constructor functions in JavaScript.
 //  Constructor functions are used to create objects in JavaScript. When you define a constructor function,
 //   you can also attach properties and methods to its prototype property. These properties and methods
-//    then become accessible to all instances of objects created from that constructor. Thus, thep rototype
+//    then become accessible to all instances of objects created from that constructor. Thus, the prototype
 //     property serves as a common repository for methods and properties that are shared among instances.
 
 // Consider the following code snippet:

@@ -26,7 +26,7 @@ let y = {
 };
 
 // How to add new key or in an object
-x.company = "TFT"; // if key isalready present then it wil update the key otherwise it will add a new key
+x.company = "TFT"; // if key is already present then it wil update the key otherwise it will add a new key
 x["company"] = "TFT";
 console.log(x);
 

@@ -1,4 +1,4 @@
-// Array is always in ascending order this is give we want to calculate the all pairs whoes sum is equal to
+// Array is always in ascending order this is given  we want to calculate the all pairs whoes sum is equal to
 // target value
 
 function twoSum(arr, target) {

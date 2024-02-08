@@ -6,7 +6,7 @@ Array actually store data in linear contiguous orientation in the memory.
 Note :- JS array support heterogenous value.
 
 ** Array are Mutable , hence they get updated but , 
-   string in js are immutable hence dont update.
+   string in js are immutable hence we can't update.
 
 
 what is data structure ? 

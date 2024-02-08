@@ -47,3 +47,61 @@ Promise.myAll = (promises) => {
       .then(console.log)
       .catch(console.log); // err4
 
+
+
+
+
+
+      // const myPromise =(arr)=>{
+      //   let newArr = [ ]; 
+      //  return new Promise((res , rej)=>{
+      //    for( let i = 0 ; i < arr.length ; i++){
+      //    Promise.resolve(arr[i]).then((data) =>  { if(newArr.length === arr.length - 1 ) {res(newArr)} newArr.push(data) }).catch((err) => rej(err));
+      //   }
+      //  })
+      // }
+      
+      // let p1 = Promise.resolve("First")
+      // let p2 = Promise.resolve("Second")
+      // let p3 = Promise.resolve("Third")
+      //  let p4 = Promise.reject("Four")
+      //  myPromise([p1,p2, p4]).then((data) =>  console.log(data)).catch(err => console.log(err)); 
+
+
+
+
+
+ const myPromise = (arr) =>{
+  let newArr = [ ]; 
+ return new Promise((res , rej)=>{
+   for( let i = 0 ; i < arr.length ; i++){
+   Promise.resolve(arr[i])
+   .then((data) =>  res(data))
+   .catch((err) => {
+     newArr.push(err); 
+     if(newArr.length === arr.length){
+       rej(newArr)
+     }
+   })
+  }
+ })
+}
+
+let p1 = new Promise((res , rej)=>{
+  setTimeout(function() {
+    rej("Error")
+  }, 1000);
+})
+let p2 = new Promise((res , rej)=>{
+  setTimeout(function() {
+    rej("Second")
+  }, 100);
+})
+let p3 = new Promise((res , rej)=>{
+  setTimeout(function() {
+    rej("Third")
+  }, 50);
+})
+ myPromise([p1,p2,p3]).then((data) =>  console.log(data)).catch(err => console.log(err)); 
+
+
