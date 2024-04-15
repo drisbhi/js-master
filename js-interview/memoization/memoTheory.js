@@ -1,5 +1,5 @@
 /*
- In computing, memoization or memoization is an optimisation technique used primarily to speed up
+ In computing, memoization or memoization is an optimization technique used primarily to speed up
  computer programs by storing the results of expensive function calls and returning the cached
  result when the same inputs occur again.
 

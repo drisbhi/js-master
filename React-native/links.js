@@ -20,6 +20,12 @@ https://www.techinterviewhandbook.org/coding-interview-study-plan/
 
 
 https://github.com/samsoul16/react-native-interview-questions
+https://sanjanahumanintech.medium.com/react-native-build-variants-dev-staging-prod-using-react-native-config-573c7b6963e7
+https://medium.com/react-native-rocket/optimizing-your-react-native-js-bundle-size-c6b95c16c075
+https://github.com/anisurrahman072/React-Native-Advanced-Guide
+
+https://blog.codemagic.io/improve-react-native-app-performance/
+
 
 
 

@@ -2,6 +2,7 @@
 
 // A deep clone function is used to create a completely independent copy of an object or array,
 // including all nested objects and arrays.
+
 function deepCloned(obj){
     if( obj === null  || typeof(obj) !== 'object')return obj;  
     if(Array.isArray(obj)){
@@ -15,7 +16,17 @@ function deepCloned(obj){
     }
     return clonedObj;
   }
-  
+
+// using reduce method 
+
+  function deepClonedusingReduce(obj){
+   if( typeof obj !== 'object' || obj === null) return obj;
+   let intitalValue = Array.isArray(obj) ? [] : {};
+  return Object.keys(obj).reduce((acc , key)=>{
+   acc[key] = deepCloned(acc[key]);
+   return acc;
+  },intitalValue)
+  }
   
   const originalObject = {
     name: 'John',
@@ -26,7 +37,8 @@ function deepCloned(obj){
       zip: '12345',
     },
   };
-  
+
+
   const cloneObject = deepCloned(originalObject);
   cloneObject.name = "sahib"; 
   console.log(cloneObject);

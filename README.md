@@ -2,7 +2,7 @@
 
 ---
 
-1. what is diffrence between == and === in js ?
+1. what is difference between == and === in js ?
    In JavaScript, the == and === operators are used for comparison, but they have different behaviors.
    == (Equality Operator):
    The == operator checks for equality between two values, allowing for type coercion.
